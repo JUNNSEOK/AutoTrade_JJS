@@ -4,6 +4,10 @@ import datetime
 from pytz import timezone
 import time
 import yaml
+import os
+
+# 현재 스크립트가 있는 디렉토리로 작업 디렉토리 설정
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 with open('config.yaml', encoding='UTF-8') as f:
     _cfg = yaml.load(f, Loader=yaml.FullLoader)
