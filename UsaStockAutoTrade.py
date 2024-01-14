@@ -251,9 +251,9 @@ try:
     ACCESS_TOKEN = get_access_token()
 
     """매수 희망하는 종목은 아래 리스트에 기입"""
-    nasd_symbol_list = ["QLD", "SQQQ", "TECL", "AZN", "INTC", "CMCSA", "SUBX"] # 매수 희망 종목 리스트 (NASD)
-    nyse_symbol_list = ["V", "TSMC", "CRM"] # 매수 희망 종목 리스트 (NYSE)
-    amex_symbol_list = [] # 매수 희망 종목 리스트 (AMEX)
+    nasd_symbol_list = ["AAPL", "QLD", "SQQQ", "TSLA"] # 매수 희망 종목 리스트 (NASD)
+    nyse_symbol_list = ["XLE", "XLC", "TSM"] # 매수 희망 종목 리스트 (NYSE)
+    amex_symbol_list = ["LIT"] # 매수 희망 종목 리스트 (AMEX)
 
 
     symbol_list = nasd_symbol_list + nyse_symbol_list + amex_symbol_list
