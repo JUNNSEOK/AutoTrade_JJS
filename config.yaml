@@ -1,8 +1,8 @@
 #홈페이지에서 API서비스 신청시 받은 Appkey, Appsecret 값 설정
-APP_KEY: 
-APP_SECRET: 
+APP_KEY: "key"
+APP_SECRET: "secret"
 #계좌번호 앞 8자리
-CANO:  "64037699"
+CANO:  "계좌번호"
 #계좌번호 뒤 2자리
 ACNT_PRDT_CD: "01"
 
