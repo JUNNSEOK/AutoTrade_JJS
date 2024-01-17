@@ -237,7 +237,7 @@ try:
         bought_list.append(sym)
     target_buy_count = 3 # 매수할 종목 수, 조건에 부합하는 최대 항목 구매량
     buy_percent = 0.33 # 종목당 매수 금액 비율
-    #buy_amount = total_cash * buy_percent  # 종목별 주문 금액 계산
+    buy_amount = total_cash * buy_percent  # 종목별 주문 금액 계산
     soldout = False
 
     send_message("===국내 주식 자동매매 프로그램을 시작합니다===")
